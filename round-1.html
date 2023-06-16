@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jeopardy</title>
+    <title>Round One</title>
   </head>
+
   <body>
-    <h1>Round One</h1>
+
     <!-- Do not change the script source. Allows import/export to work. -->
     <script src="./scripts/index.js" type="module"></script>
+
+    <h1 class="welcoming">Round One</h1>
+    <h2 class="playerturnnote">Player Turn</h2>
+    <div class="chart-parent">
+      <ol class="column1">
+        <li class="category">CATEGORY</li>
+        <li>100</li>
+        <li>200</li>
+        <li>300</li>
+        <li>400</li>
+        <li>500</li>
+      </ol>
+      <ol class="column2">
+        <li class="category">CATEGORY</li>
+        <li>100</li>
+        <li>200</li>
+        <li>300</li>
+        <li>400</li>
+        <li>500</li>
+      </ol>
+      <ol class="column3">
+        <li class="category">CATEGORY</li>
+        <li>100</li>
+        <li>200</li>
+        <li>300</li>
+        <li>400</li>
+        <li>500</li>
+      </ol>
+      <ol class="column4">
+        <li class="category">CATEGORY</li>
+        <li>100</li>
+        <li>200</li>
+        <li>300</li>
+        <li>400</li>
+        <li>500</li>
+      </ol>
+      <ol class="column5">
+        <li class="category">CATEGORY</li>
+        <li>100</li>
+        <li>200</li>
+        <li>300</li>
+        <li>400</li>
+        <li>500</li>
+      </ol>
+      <ol class="column6">
+        <li class="category">CATEGORY</li>
+        <li>100</li>
+        <li>200</li>
+        <li>300</li>
+        <li>400</li>
+        <li>500</li>
+      </ol>
+    </div>
+      <div class="userinfo">
+        <form>
+          <input type="text" id="inputbox" placeholder="User Input...">
+        </form>
+        <div>
+          <button class="userbtn">GUESS</button>
+          <button class="userbtn">PASS</button>
+        </div>
+      </div>
+      <div class="score">
+        <p>Player 1 Score: 0</p>
+        <p>Player 2 Score: 0</p>
+      </div>
+      <div class="navnext">
+        <button>
+          <a href="round-2.html">Next <br> Round</a>
+        </button>
+      </div>
+    <footer class="indexfooter">Footer site information</footer>
   </body>
+
 </html>

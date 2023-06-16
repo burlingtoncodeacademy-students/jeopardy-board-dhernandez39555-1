@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Jeopardy</title>
   </head>
+
   <body>
-    <h1>Final Jeopardy</h1>
     <!-- Do not change the script source. Allows import/export to work. -->
-    <script src="./scripts/index.js" type="module"></script>
+    <script src="./scripts/index.js" type="module"></script> 
+    
+    <h1 class="welcoming" id="finalwelcoming">Final Jeopardy</h1>
+    <h2 class="playerturnnote">Player Turn</h2>
+    <div class="finaljbig">
+      <button id="finaljbtn">
+        <a href="">FINAL CATEGORY</a>
+      </button>
+      <input type="text" placeholder="FINAL QUESTION" id="finaltextlarge">
+      <input type="text" placeholder="Point bet amount..." class="finaltextsmall">
+      <input type="text" placeholder="Final answer..." class="finaltextsmall">
+      <button id="betbtn">
+        <a href="">BET</a>
+      </button>
+    </div>
+    
+    <footer class="indexfooter">Footer site information</footer>
   </body>
+
 </html>
