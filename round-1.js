@@ -1,3 +1,6 @@
+//Unfortunately got a case of "I've got tomorrow to do it and never did get any work done"
+
+
 let column1= document.querySelector(".column1")
 
 let q1c1= document.querySelector("#q1c1")
